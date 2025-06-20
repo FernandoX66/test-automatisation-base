@@ -6,7 +6,6 @@ class KarateBasicTest {
     }
     @Karate.Test
     Karate testBasic() {
-        return Karate.run("classpath:karate-test.feature");
+        return Karate.run("classpath:marvelCharacters.feature");
     }
-
 }
